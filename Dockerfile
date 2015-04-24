@@ -26,4 +26,4 @@ RUN curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
 RUN bash -l -c "source $HOME/.rvm/scripts/rvm"
 RUN bash -l -c "rvm install $RUBY_VERSION"
 
-CMD ["bash"]
+CMD ["bash", "-l"]
