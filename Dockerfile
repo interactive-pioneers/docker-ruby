@@ -2,7 +2,7 @@ FROM phusion/baseimage
 
 MAINTAINER Ain Tohvri <ain@flashbit.net>
 
-ENV RUBY_VERSION 2.1.5
+ENV RUBY_VERSION 2.2.2
 ENV USERNAME deploy
 ENV HOME /home/$USERNAME
 
