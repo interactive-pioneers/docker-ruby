@@ -1,6 +1,6 @@
 FROM phusion/baseimage
 
-MAINTAINER Ain Tohvri <ain@flashbit.net>
+MAINTAINER Ain Tohvri <ain@interactive-pioneers.de>
 
 ENV RUBY_VERSION 2.2.2
 ENV USERNAME deploy
