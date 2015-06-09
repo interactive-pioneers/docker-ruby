@@ -17,6 +17,8 @@ RUN locale-gen en_US.UTF-8 \
 
 # Create user account
 RUN adduser --home $HOME --disabled-password --gecos '' $USERNAME
+RUN mkdir -p $HOME/.ssh
+RUN touch $HOME/.ssh/known_hosts
 RUN echo "%$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 USER $USERNAME
