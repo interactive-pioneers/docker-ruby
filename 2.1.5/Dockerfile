@@ -25,7 +25,7 @@ USER $USERNAME
 
 RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 RUN curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
-RUN bash -l -c "source $HOME/.rvm/scripts/rvm"
-RUN bash -l -c "rvm install $RUBY_VERSION"
+RUN bash -lc "source $HOME/.rvm/scripts/rvm"
+RUN bash -lc "rvm install $RUBY_VERSION"
 
 CMD ["bash", "-l"]
