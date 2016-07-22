@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    build: ../2.1.5
+    expose:
+      - 80
+    volumes:
+      - .:/deploy
+    ports:
+      - "8081:80"
+    environment:
+      - RAILS_ENV=test
+      - PASSENGER_APP_ENV=test
