@@ -1,4 +1,4 @@
-# Docker Ruby [![](https://badge.imagelayers.io/ipioneers/docker-ruby:2.2.4.svg)](https://imagelayers.io/?images=ipioneers/docker-ruby:2.2.4)
+# Docker Ruby
 
 ## Features
 - Ubuntu 14.04.1 LTS (phusion/baseimage, for added Docker friendliness)
