@@ -1,4 +1,4 @@
-# Docker Ruby
+# Docker Ruby [![Build Status](https://travis-ci.org/interactive-pioneers/docker-ruby.svg?branch=master)](https://travis-ci.org/interactive-pioneers/docker-ruby)
 
 ## Features
 - Ubuntu 14.04.1 LTS (phusion/baseimage, for added Docker friendliness)
