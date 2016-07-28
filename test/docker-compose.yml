@@ -1,0 +1,12 @@
+version: '2'
+services:
+  docker-ruby-215:
+    build: ../2.1.5
+  docker-ruby-216:
+    build: ../2.1.6
+  docker-ruby-222:
+    build: ../2.2.2
+  docker-ruby-223:
+    build: ../2.2.3
+  docker-ruby-224:
+    build: ../2.2.4
